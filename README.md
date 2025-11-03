@@ -45,4 +45,4 @@ Paciencia, seguramente no saldrá a la primera.
 Puedes consultar la documentación de HTML y CSS para obtener ayuda adicional:
 
 - [HTML MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [CSS MDN Web Docs](https://developer.mozilla.org/en-US/docs/W eb/CSS)
