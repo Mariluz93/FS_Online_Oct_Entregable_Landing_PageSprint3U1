@@ -5,62 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PLANET SKIN</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="mainHeader">
-        <div class="logo">
-            <a href="#"><img src="logo_planetskin.jpg" alt="Logo Planet Skin"></a>
+        <div id="ham" class="ham">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-        <button class="menu-toggle" aria-label="Abrir menú">☰</button>
-        <nav>
-            
-            <a href="#">Cuidado Facial</a>
-            <a href="#">Tipo de piel</a>
-            <a href="#">Te preocupa</a>
-            <a href="#">Cuidados corporales</a>
-            <a href="#">Maquillaje</a>
-            <a href="#">Outlet y promociones</a>
-            <a href="#">Novedades</a>
-            <a href="#">Marcas</a>
-            
-        </nav>
+        <div class="logo">
+            <a href="#"><img src="./img/Logo-PlanetSkin-2_275x@2x.avif" alt="Logo Planet Skin"></a>
+        </div>
+        <div id="categories" class="categories">
+            <span id="close-menu" class="close-menu">x</span>
+            <nav>
+                <a href="#">Cuidado Facial</a>
+                <a href="#">Tipo de piel</a>
+                <a href="#">Te preocupa</a>
+                <a href="#">Cuidados corporales</a>
+                <a href="#">Maquillaje</a>
+                <a href="#">Outlet y promociones</a>
+                <a href="#">Novedades</a>
+                <a href="#">Marcas</a>
+            </nav>
+        </div>
         <div class="language-selector">
-            <label for="language">Idioma:</label>
-            <select id="language" name="language">
-                <option value="es">Español</option>
-                <option value="en">Inglés</option>
-                <option value="fr">Francés</option>
+            <select id="lang" name="language">
+                <option value="es">🇪🇸 España</option>
+                <option value="en">🇺🇸 Estados Unidos</option>
+                <option value="fr">🇫🇷 Francia</option>
             </select>
         </div>
     </header>
     <main>
         <section class="masthead">
-            <img src="sk_fondo.jpg" alt="SKIN1004 THE UNTOUCHED NATURE">
-            <article class="masthead-content">
+            <img src="./img/sk_fondo.jpg" alt="SKIN1004 THE UNTOUCHED NATURE">
+            <div class="degradado"></div>
+            <article>
                 <p>TODAS SUS LÍNEAS YA DISPONIBLES</p>
                 <h2>SKIN1004: LA MARCA DE LA QUE TODO EL MUNDO HABLA</h2>
                 <button>¡PARA MÍ!</button>
             </article>            
         </section>
         <section class="secciones">
-            <h4><a href="#">COSMÉTICA COREANA PLANET SKIN</a></h4>
-            <h4><a href="#">NUEVO ESTA SEMANA</a></h4>
+            <h2><a href="#">COSMÉTICA COREANA PLANET SKIN</a></h2>
+            <h2><a href="#">NUEVO ESTA SEMANA</a></h2>
         </section>
     </main>
     <footer>
         <div class="footer-content">
-            <p><a href="#"><span class="gift">🎁</span></a>Planet Skin Club</p>
+            <p><a href="#"><span class="gift">🎁</span>Planet Skin Club</a></p>
             <p><a href="#"><span class="chat">💬</span></a></p>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
-
- <!---        <div class="dots">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-            -->
